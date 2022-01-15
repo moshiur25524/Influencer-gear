@@ -141,4 +141,13 @@ footer {
     .banner {
         grid-template-columns: 1fr;
     }
+    .collections {
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .channels {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer {
+        width: 100vw;
+    }
 }
