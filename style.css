@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@400;500;700&family=Raleway:wght@500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;;
+}
+.container{
+    margin-left: 120px;
+}
+header {
+    height: 100vh;
+}
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+.products>h1 {
+    text-align: center;
+}
+.fa-star {
+    width: 16px;
+    height: 16px;
+    color: #FB8200;
+}
+.rating {
+    color: #5E6366;
+    padding-left: 10px;
+}
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.collection {
+    width: 329px;
+    height: 476px;
+    background-color: white;
+}
